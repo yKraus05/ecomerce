@@ -5,38 +5,44 @@ const products = [
         id: 1,
         name: "Cadeira de Escritório Minimalista",
         price: 599.99,
-        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+        image: "image/Cadeira de Escritório Minimalista.avif"
     },
     {
         id: 2,
         name: "Mesa de Centro Moderna",
         price: 349.99,
-        image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+        image: "image/mesa.webp"
     },
     {
         id: 3,
         name: "Luminária de Mesa Elegante",
         price: 129.99,
-        image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+        image: "image/Luminária de Mesa Elegante.avif"
     },
     {
         id: 4,
         name: "Vaso Decorativo Cerâmica",
         price: 79.99,
-        image: "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+        image: "image/Vaso Decorativo Cerâmica.avif"
     },
     {
         id: 5,
         name: "Conjunto de Canetas Premium",
         price: 45.99,
-        image: "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+        image: "image/Conjunto de Canetas Premium.avif"
     },
     {
         id: 6,
         name: "Caderno de Notas Capa Dura",
         price: 29.99,
-        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
-    }
+        image: "image/Caderno de Notas Capa Dura.avif"
+    },
+    {
+        id: 7,
+        name: "Sofá Vintage",
+        price: 799.99,
+        image: "image/Mesa de Centro Moderna.avif"
+    },
 ];
 
 // Estado do carrinho
