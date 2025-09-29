@@ -39,7 +39,7 @@ const products = [
     },
     {
         id: 7,
-        name: "Sofá Vintage",
+        name: "Sofá Vintage verde musgo",
         price: 799.99,
         image: "image/Mesa de Centro Moderna.avif"
     },
