@@ -331,6 +331,7 @@ footer {
 
 .footer-links a:hover {
     text-decoration: underline;
+    color: #e74c3c;
 }
 
 /* Responsividade */
