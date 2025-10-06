@@ -3,45 +3,75 @@
 const products = [
     {
         id: 1,
-        name: "Cadeira de Escritório Minimalista",
+        name: "Grand Theft Auto VI",
         price: 599.99,
-        image: "image/Cadeira de Escritório Minimalista.avif"
+        image: "image/gta.jpg"
     },
     {
         id: 2,
-        name: "Mesa de Centro Moderna",
-        price: 349.99,
-        image: "image/mesa.webp"
+        name: "Far Cry 3",
+        price: 59.99,
+        image: "image/farcry.avif"
     },
     {
         id: 3,
-        name: "Luminária de Mesa Elegante",
-        price: 129.99,
-        image: "image/Luminária de Mesa Elegante.avif"
+        name: "Forza Horizon 5",
+        price: 149.99,
+        image: "image/forza.jpg"
     },
     {
         id: 4,
-        name: "Vaso Decorativo Cerâmica",
-        price: 79.99,
-        image: "image/Vaso Decorativo Cerâmica.avif"
+        name: "Red Dead Redemption ",
+        price: 199.99,
+        image: "image/read.avif"
     },
     {
         id: 5,
-        name: "Conjunto de Canetas Premium",
+        name: "Assassin's Creed Unity",
         price: 45.99,
-        image: "image/Conjunto de Canetas Premium.avif"
+        image: "image/assasino.avif"
     },
     {
         id: 6,
-        name: "Caderno de Notas Capa Dura",
-        price: 29.99,
-        image: "image/Caderno de Notas Capa Dura.avif"
+        name: "Minecraft java edition",
+        price: 59.99,
+        image: "image/minecraft.jpg"
     },
     {
         id: 7,
-        name: "Sofá Vintage verde musgo",
-        price: 799.99,
-        image: "image/Mesa de Centro Moderna.avif"
+        name: "Rocket League",
+        price: 29.99,
+        image: "image/rocket.jpg"
+    },
+    {
+        id:8,
+        name: "God of War",
+        price: 449.99,
+        image: "image/god.webp"
+    },
+    {
+        id:9,
+        name: "Dead by Daylight",
+        price: 49.99,
+        image: "image/deadby.jpg"
+    },
+    {
+        id:10,
+        name: "Dying Light",
+        price: 79.99,
+        image: "image/dying.jpg"
+    },
+    {
+        id:11,
+        name: "Ghost of Tsushima",
+        price: 249.99,
+        image: "image/ghost.jpg"
+    },
+    {
+        id:12,
+        name: "The last of us",
+        price: 329.99,
+        image: "image/thelast.jpg"
     },
 ];
 
