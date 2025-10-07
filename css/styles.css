@@ -135,7 +135,9 @@ nav ul li a:hover {
 }
 .formulario button{
     margin: 0 auto;
-    display: block;
+    background-color: #fff;
+    color: #0f0f0f;
+    border: 1px #0f0f0f solid;
     font-size: 16px;
     padding: 5px 10px;
 }
