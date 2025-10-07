@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CentralGames - jogos eletrônicos</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    
+    <header>
+        <div class="header-container">
+            <div class="logo">Central<span>Games</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#products">Produtos</a></li>
+                    <li><a href="novidade.html">Novidades</a></li>
+                    <li><a href="index.html#sobre">Sobre</a></li>
+                    <li><a href="index.html#contato">Contato</a></li>
+                    <li><a href="index.html#fidelidade">Fidelidade</a></li>
+                    <li class="cart-icon" id="cart-icon">
+                        Carrinho
+                        <span class="cart-count" id="cart-count">0</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Carrinho lateral -->
+    <div class="overlay" id="overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Itens do carrinho serão inseridos aqui -->
+        </div>
+        <div class="cart-total">
+            Total: R$ <span id="cart-total">0.00</span>
+        </div>
+        <button class="checkout-btn">Finalizar Compra</button>
+    </div>
+    <section id="sobre" class="products">
+        <h2 class="section-title">Sobre nós</h2>
+        <p>Bem-vindo à Central Games — onde toda aventura gamer começa!
+            <br>
+            Fundada por apaixonados por jogos, a Central Games nasceu do desejo de unir tecnologia, diversão e comunidade em um só lugar. Aqui, mais do que vender consoles, acessórios ou jogos, queremos conectar você ao universo dos games: dos clássicos que marcaram história aos lançamentos que fazem corações acelerarem.
+            <br>
+            Nossa missão é proporcionar experiências digitais e físicas memoráveis, com produtos de qualidade, atendimento dedicado e suporte que realmente entende do assunto. Queremos que cada cliente se sinta parte desse mundo — que não seja só “comprar”, mas “viver” cada fase, cada conquista, cada jogada.</p>
+    </section>         
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <p class="mini_escrita">&copy; 2025 CentralGames. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Serviço</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+    </footer>
+<script src="js/scripts.js"></script> 
+
+</body>
+</html>
