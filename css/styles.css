@@ -100,7 +100,15 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
 }
-
+.formulario{
+    text-align: center;
+    
+}
+.formulario input{
+    border-radius: 4%;
+    border: 1px #0f0f0f solid;
+    margin-bottom: 2%;
+}
 /* Banner principal */
 .hero {
     background: linear-gradient(135deg,#007180,#618834);
