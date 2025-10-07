@@ -1,4 +1,3 @@
-
 /* Reset e configurações básicas */
 * {
     margin: 0;
@@ -6,12 +5,15 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 p {
     color: #0f0f0f;
 }
-.mini_escrita{
+
+.mini_escrita {
     color: #fff;
 }
+
 body {
     background-color: #fff;
     color: #333;
@@ -27,19 +29,25 @@ header {
     top: 0;
     z-index: 100;
 }
-table{
+
+table {
     margin: 0 auto;
     /*width: 100%;*/
     border-collapse: collapse;
 }
-tr,td,th{
+
+tr,
+td,
+th {
     border: 1px solid #adadad;
     text-align: left;
     padding: 8px;
 }
-tr:nth-child(even){
+
+tr:nth-child(even) {
     background-color: #e6e5e5;
 }
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -69,7 +77,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color:#0f0f0f;
+    color: #0f0f0f;
     font-weight: 500;
     transition: color 0.3s;
 }
@@ -82,6 +90,7 @@ nav ul li a:hover {
     position: relative;
     cursor: pointer;
 }
+
 .cart-icon:hover {
     color: #0f0f0f;
 }
@@ -100,18 +109,42 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
 }
-.formulario{
+
+.formulario {
+    margin: 0 auto;
+    width: 30%;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.3);
     text-align: center;
-    
+
 }
-.formulario input{
-    border-radius: 4%;
-    border: 1px #0f0f0f solid;
-    margin-bottom: 2%;
+.formulario label {
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+}
+.formulario input {
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    border: 1px#0f0f0f solid;
+    padding: 5px 15px;
+    text-align: left;
+}
+.formulario button{
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+.formulario p{
+    font-size: 23px;
 }
 /* Banner principal */
 .hero {
-    background: linear-gradient(135deg,#007180,#618834);
+    background: linear-gradient(135deg, #007180, #618834);
     color: #fff;
     padding: 4rem 2rem;
     text-align: center;
