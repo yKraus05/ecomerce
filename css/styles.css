@@ -143,7 +143,7 @@ nav ul li a:hover {
 }
 .formulario button:hover{
     background-color: #f1f1f1;
-    transform: translateY(-2px);
+    transform:translateY(-2px);
 }
 .formulario p{
     font-size: 23px;
