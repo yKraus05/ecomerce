@@ -109,7 +109,28 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
 }
-
+.cadastro{
+    margin: 0 auto;
+    width: 30%;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.3);
+    text-align: center; 
+}
+.cadastro label{
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+}
+.cadastro input{
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    border: 1px#0f0f0f solid;
+    padding: 5px 15px;
+    text-align: left;
+}
 .formulario {
     margin: 0 auto;
     width: 30%;

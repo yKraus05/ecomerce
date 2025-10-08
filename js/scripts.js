@@ -96,7 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Renderizar produtos
 function renderProducts() {
-    productsGrid.innerHTML = '';
     
     products.forEach(product => {
         const productCard = document.createElement('div');
@@ -109,7 +108,6 @@ function renderProducts() {
                 <button class="add-to-cart" data-id="${product.id}">Adicionar ao Carrinho</button>
             </div>
         `;
-        productsGrid.appendChild(productCard);
     });
 
     // Adicionar event listeners aos botões
