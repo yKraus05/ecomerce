@@ -131,6 +131,15 @@ nav ul li a:hover {
     padding: 5px 15px;
     text-align: left;
 }
+.cadastro button{
+    margin: 0 auto;
+    background-color: #fff;
+    color: #0f0f0f;
+    border: 1px #0f0f0f solid;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
 .formulario {
     margin: 10px auto;
     width: 30%;
@@ -161,7 +170,9 @@ nav ul li a:hover {
     border: 1px #0f0f0f solid;
     font-size: 16px;
     padding: 5px 10px;
+    cursor: pointer;
 }
+
 .formulario p{
     font-size: 23px;
 }
